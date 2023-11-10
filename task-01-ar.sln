@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilentCelShading.Unity", "SilentCelShading.Unity.csproj", "{601D0314-5238-B476-35DC-149BE4D088C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{E6132A3D-7645-B479-6AD6-790811876903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{601D0314-5238-B476-35DC-149BE4D088C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601D0314-5238-B476-35DC-149BE4D088C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601D0314-5238-B476-35DC-149BE4D088C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601D0314-5238-B476-35DC-149BE4D088C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6132A3D-7645-B479-6AD6-790811876903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6132A3D-7645-B479-6AD6-790811876903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6132A3D-7645-B479-6AD6-790811876903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6132A3D-7645-B479-6AD6-790811876903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
