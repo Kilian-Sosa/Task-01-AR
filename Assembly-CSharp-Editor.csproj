@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E6132A3D-7645-B479-6AD6-790811876903}</ProjectGuid>
+    <ProjectGuid>{55041C29-62AB-3EC1-8A64-DB9341F13218}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -829,6 +829,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SilentCelShading.Unity.csproj">
+      <Project>{7069E493-374A-F10F-BF45-7E3DFEE9FE7C}</Project>
+      <Name>SilentCelShading.Unity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

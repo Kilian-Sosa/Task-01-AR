@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{601D0314-5238-B476-35DC-149BE4D088C2}</ProjectGuid>
+    <ProjectGuid>{7069E493-374A-F10F-BF45-7E3DFEE9FE7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SilentCelShading.Unity</AssemblyName>
