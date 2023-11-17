@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{DAAC3034-DC51-7739-4DB4-11F01A11296E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilentCelShading.Unity", "SilentCelShading.Unity.csproj", "{601D0314-5238-B476-35DC-149BE4D088C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{E6132A3D-7645-B479-6AD6-790811876903}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAC3034-DC51-7739-4DB4-11F01A11296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAC3034-DC51-7739-4DB4-11F01A11296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAC3034-DC51-7739-4DB4-11F01A11296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAC3034-DC51-7739-4DB4-11F01A11296E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{601D0314-5238-B476-35DC-149BE4D088C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{601D0314-5238-B476-35DC-149BE4D088C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{601D0314-5238-B476-35DC-149BE4D088C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
