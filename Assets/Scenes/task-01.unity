@@ -220,11 +220,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &205432402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
+  m_PrefabInstance: {fileID: 574678712}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &213361303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
   m_PrefabInstance: {fileID: 574678712}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &213361304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205432402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47f3fc60453aa94bbdccef69bc9e130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &388077760
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +502,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1615347429}
+    m_TransformParent: {fileID: 1699089863}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalScale.x
@@ -493,11 +510,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.050000004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.050000004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalPosition.x
@@ -517,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalRotation.y
@@ -545,7 +562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_Name
-      value: Entrenador Push-ups
+      value: Trainer Push-ups
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_IsActive
@@ -593,7 +610,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 747969231759637169, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       insertIndex: 2
       addedObject: {fileID: 938114262}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 213361304}
   m_SourcePrefab: {fileID: 100100000, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
 --- !u!4 &574678713 stripped
 Transform:
@@ -749,6 +769,28 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 626393398}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1 &871979974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
+  m_PrefabInstance: {fileID: 1928723425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &872134339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
+  m_PrefabInstance: {fileID: 2024058930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &872134340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872134339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47f3fc60453aa94bbdccef69bc9e130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &938114261
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +930,7 @@ GameObject:
   - component: {fileID: 983880241}
   - component: {fileID: 983880240}
   - component: {fileID: 983880242}
+  - component: {fileID: 983880243}
   m_Layer: 0
   m_Name: JoggingTarget
   m_TagString: Untagged
@@ -921,7 +964,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 983880242}
+  mPreview: {fileID: 983880243}
 --- !u!4 &983880241
 Transform:
   m_ObjectHideFlags: 0
@@ -939,6 +982,74 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &983880242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983880239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 2
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1733264971}
+        m_TargetAssemblyTypeName: TrainerBehaviour, Assembly-CSharp
+        m_MethodName: ActivateObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1733264971}
+        m_TargetAssemblyTypeName: TrainerBehaviour, Assembly-CSharp
+        m_MethodName: DeactivateObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &983880243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1036,6 +1147,7 @@ GameObject:
   - component: {fileID: 1615347429}
   - component: {fileID: 1615347428}
   - component: {fileID: 1615347430}
+  - component: {fileID: 1615347431}
   m_Layer: 0
   m_Name: SitupsTarget
   m_TagString: Untagged
@@ -1069,7 +1181,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1615347430}
+  mPreview: {fileID: 1615347431}
 --- !u!4 &1615347429
 Transform:
   m_ObjectHideFlags: 0
@@ -1083,10 +1195,78 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 213361303}
+  - {fileID: 84133527}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1615347430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615347427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 2
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 872134340}
+        m_TargetAssemblyTypeName: TrainerBehaviour, Assembly-CSharp
+        m_MethodName: ActivateObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 872134340}
+        m_TargetAssemblyTypeName: TrainerBehaviour, Assembly-CSharp
+        m_MethodName: DeactivateObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1615347431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1244,6 +1424,7 @@ GameObject:
   - component: {fileID: 1699089863}
   - component: {fileID: 1699089862}
   - component: {fileID: 1699089864}
+  - component: {fileID: 1699089865}
   m_Layer: 0
   m_Name: PushupsTarget
   m_TagString: Untagged
@@ -1277,7 +1458,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1699089864}
+  mPreview: {fileID: 1699089865}
 --- !u!4 &1699089863
 Transform:
   m_ObjectHideFlags: 0
@@ -1291,10 +1472,78 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 84133527}
+  - {fileID: 213361303}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1699089864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699089861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 2
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 213361304}
+        m_TargetAssemblyTypeName: TrainerBehaviour, Assembly-CSharp
+        m_MethodName: ActivateObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 213361304}
+        m_TargetAssemblyTypeName: TrainerBehaviour, Assembly-CSharp
+        m_MethodName: DeactivateObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1699089865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1318,6 +1567,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
   m_PrefabInstance: {fileID: 1928723425}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1733264971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871979974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47f3fc60453aa94bbdccef69bc9e130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1918352846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,11 +2137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_Name
-      value: Entrenador Jogging
+      value: Trainer Jogging
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1317669486560826624, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2108,7 +2369,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 747969231759637169, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1693503814}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1733264971}
   m_SourcePrefab: {fileID: 100100000, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
 --- !u!4 &1928723426 stripped
 Transform:
@@ -2121,7 +2385,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1699089863}
+    m_TransformParent: {fileID: 1615347429}
     m_Modifications:
     - target: {fileID: -9162484748627739507, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2149,11 +2413,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.050000004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.050000004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2173,7 +2437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2549,7 +2813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_Name
-      value: Entrenador Sit-ups
+      value: Trainer Sit-ups
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       propertyPath: m_IsActive
@@ -2781,7 +3045,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 747969231759637169, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1918352847}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872134340}
   m_SourcePrefab: {fileID: 100100000, guid: 88f0b98e65f059d4db63eac594281212, type: 3}
 --- !u!4 &2024058931 stripped
 Transform:
