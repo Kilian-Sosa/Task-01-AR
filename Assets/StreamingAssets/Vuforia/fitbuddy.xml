@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="cafe" size="0.200000 0.200000" />
     <ImageTarget name="fitbuddyIcon_waifu2x_art_noise1_scale_waifu2x_art_noise1_scale" size="0.200000 0.200000" />
-    <ImageTarget name="mancuerna" size="0.200000 0.133281" />
     <ImageTarget name="sit-ups" size="0.200000 0.200000" />
     <ImageTarget name="square-shape-with-pictograph-man-in-push-up-vector-12937865" size="0.200000 0.216000" />
     <ImageTarget name="istockphoto-1158723576-612x612" size="0.200000 0.200000" />

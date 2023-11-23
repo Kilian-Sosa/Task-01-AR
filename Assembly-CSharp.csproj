@@ -97,6 +97,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\StreamingAssets\Vuforia\fitbuddy.xml" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_Config.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Assets\LightRamps\Info.txt" />
@@ -131,7 +132,6 @@
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_AudioLink.cginc" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_Shadows.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\StreamingAssets\Vuforia\fitbuddy.xml" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Assets\mofuaki_\mofuaki_-1185084491351515136.txt" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_Forward.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
