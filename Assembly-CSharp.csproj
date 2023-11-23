@@ -106,6 +106,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Models\Wii Fit Trainer\readme.txt" />
+    <None Include="Assets\StreamingAssets\Vuforia\untitled.xml" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Assets\Mnmr\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_Attributes.cginc" />
@@ -115,6 +116,7 @@
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_Core.cginc" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\SCSS_UnityGI.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\cup2.xml" />
     <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Shaders\Flat Lit Toon (No Outline).shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
