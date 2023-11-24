@@ -9,8 +9,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{601D0314-5238-B476-35DC-149BE4D088C2}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{7069E493-374A-F10F-BF45-7E3DFEE9FE7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SilentCelShading.Unity</AssemblyName>
@@ -59,17 +60,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_XSGradientEditor.cs" />
-    <Compile Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_Inspector.cs" />
-    <Compile Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_InspectorTools.cs" />
-    <Compile Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_InspectorBase.cs" />
-    <Compile Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_ShaderBaking.cs" />
-    <Compile Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_XSMultiGradient.cs" />
+    <Compile Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_XSGradientEditor.cs" />
+    <Compile Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_Inspector.cs" />
+    <Compile Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_InspectorTools.cs" />
+    <Compile Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_InspectorBase.cs" />
+    <Compile Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_ShaderBaking.cs" />
+    <Compile Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_XSMultiGradient.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SilentCelShading.Unity.asmdef" />
-    <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_InspectorData.Japanese.txt" />
-    <None Include="Assets\SCSS-master\Assets\Silent&apos;s Cel Shading Shader\Editor\SCSS_InspectorData.English.txt" />
+    <None Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SilentCelShading.Unity.asmdef" />
+    <None Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_InspectorData.Japanese.txt" />
+    <None Include="Assets\SCSS-master\Assets\Silent's Cel Shading Shader\Editor\SCSS_InspectorData.English.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
