@@ -8,11 +8,13 @@ public class Function : MonoBehaviour {
     public TMP_Text textBox;
     public void ActivateText() {
         StartCoroutine(ShowText());
+        textBox.GetComponent<AudioSource>().enabled = true;
     }
 
     public void DesactivateText() {
         StopCoroutine("ShowText");
         textBox.text = ""; //limpiar 
+        textBox.GetComponent<AudioSource>().enabled = false;
     }
     IEnumerator ShowText() {
         for (int i = 0; i < text.Length; i++) {
