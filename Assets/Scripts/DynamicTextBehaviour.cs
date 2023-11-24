@@ -20,7 +20,7 @@ public class Function : MonoBehaviour {
         for (int i = 0; i < text.Length; i++) {
             textBox.text += text[i];
             yield return new
-           WaitForSeconds(0.02f);
+           WaitForSeconds(0.08f);
         }
     }
 }
