@@ -1846,18 +1846,18 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: cup2
+  mTrackableName: cup5
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/cup2.xml
-  mBaseSize: 0.235637
-  mAspectRatioXY: 1.7467971
-  mAspectRatioXZ: 0.9471391
+  mDataSetPath: Vuforia/cup5.xml
+  mBaseSize: 0.235636
+  mAspectRatioXY: 1.7468045
+  mAspectRatioXZ: 0.9471431
   mShowBoundingBox: 0
   mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.084208, y: 0.022786, z: -0.108997}
-  mBBoxMax: {x: 0.151429, y: 0.434396, z: 0.114184}
-  mPreviewImage: {fileID: 2800000, guid: 67ead2bbbd0841f5b93a7b7e2ba8131b, type: 3}
-  mLength: 0.235637
+  mBBoxMin: {x: -0.084207, y: 0.022786, z: -0.108964}
+  mBBoxMax: {x: 0.151429, y: 0.434396, z: 0.114217}
+  mPreviewImage: {fileID: 2800000, guid: 8fab453c65bb40ec91fdbcd5413f2b55, type: 3}
+  mLength: 0.235636
   mWidth: 0.41161
   mHeight: 0.22318101
   m3DGuideViewModel: {fileID: 0}
@@ -1867,10 +1867,10 @@ MonoBehaviour:
   m3DGuideViewMaterial: {fileID: 0}
   mSelectedGuideView: GuideView_0000
   mMotionHint: 1
-  mTrackingMode: 1
+  mTrackingMode: 2
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mHasRealisticTextures: 0
+  mHasRealisticTextures: 1
   mPreview: {fileID: 1070381116}
   mAutoValidationDataSetName: 
 --- !u!4 &1070381115
@@ -1885,8 +1885,7 @@ Transform:
   m_LocalPosition: {x: 2.123, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1816581699}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1070381116
@@ -1903,10 +1902,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1070381114}
   mHiddenRoot: {fileID: 0}
-  mTargetName: cup2
-  mDatasetName: Vuforia/cup2.xml
+  mTargetName: cup5
+  mDatasetName: Vuforia/cup5.xml
   mCastedBehaviour: {fileID: 1070381114}
-  mModelScale: {x: 0.235637, y: 0.41161, z: 0.22318101}
+  mModelScale: {x: 0.235636, y: 0.41161, z: 0.22318101}
   mModelTargetPreview: {fileID: 0}
 --- !u!1001 &1205218231
 PrefabInstance:
@@ -2163,75 +2162,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1322697470}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!1001 &1528697026
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1070381115}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-      propertyPath: m_Name
-      value: cup
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
 --- !u!1 &1615347427
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,11 +2605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f47f3fc60453aa94bbdccef69bc9e130, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1816581699 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ff937adf1a9b8704b849f098ccc67032, type: 3}
-  m_PrefabInstance: {fileID: 1528697026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918352846
 GameObject:
   m_ObjectHideFlags: 0

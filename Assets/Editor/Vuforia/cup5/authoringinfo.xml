@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.19.3">
+<ModelTarget name="cup5" targetId="79da7847129a4a04aa4dda1b28e7e18e" version="14.0" toolVersion="10.19.3" bbox="-0.084207 0.022786 -0.108964 0.151429 0.434396 0.114217" previewImage="79da7847129a4a04aa4dda1b28e7e18e_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="cup5s_assembly" assemblyId="f3be0f3cce704637bbc8109ea6e49898">
+<Part name="cup5" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0333606 0.20941 0.811782" rotation="AD: 0.500552 -0.888093 4.47507 182.48" image="cup5_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

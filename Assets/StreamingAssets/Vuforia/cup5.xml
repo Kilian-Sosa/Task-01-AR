@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="cup5" motionHint="adaptive" trackingMode="scan" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="cup5s_assembly" assemblyId="f3be0f3cce704637bbc8109ea6e49898">
+<Part name="cup5" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0333606 0.20941 0.811782" rotation="AD: 0.500552 -0.888093 4.47507 182.48" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
