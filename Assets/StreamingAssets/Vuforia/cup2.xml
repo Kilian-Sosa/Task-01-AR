@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="cup2" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="cup2s_assembly" assemblyId="02c87939bbe84cca9ee08d0b273cb082">
+<Part name="cup2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00766197 0.114704 0.851682" rotation="AD: 0.997936 0.192817 -0.397582 227.83" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="0.0141089 0.13518 0.83505" rotation="AD: 0.974811 0.367641 -0.856735 214.46" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0002" translation="0.0144099 0.174575 0.786351" rotation="AD: -0.929263 -0.444472 1.588 164.352" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0003" translation="0.00884712 0.200196 0.712414" rotation="AD: -0.907598 -0.430678 4.41023 177.755" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0004" translation="-0.00498213 0.200883 0.70795" rotation="AD: 0.956878 -0.303576 3.31998 182.89" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0005" translation="-0.0136881 0.19085 0.750743" rotation="AD: 0.985755 -0.220602 1.20882 193.029" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0006" translation="-0.0143557 0.197247 0.727494" rotation="AD: 0.999632 -0.0545211 0.576664 189.353" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0007" translation="-0.00815899 0.1857 0.764946" rotation="AD: 0.999986 -0.0306153 0.177006 199.322" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

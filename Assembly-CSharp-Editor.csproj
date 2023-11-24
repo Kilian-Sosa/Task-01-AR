@@ -63,7 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Vuforia\ForPrint\ModelTarget\readme_3dprint.txt" />
+    <None Include="Assets\Editor\Vuforia\cup2\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
+    <None Include="Assets\Editor\Vuforia\untitled\authoringinfo.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

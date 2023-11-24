@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="untitled" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="untitleds_assembly" assemblyId="2a5d55772bd340148e72d920730c2727">
+<Part name="untitled" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0418329 0.20495 1.02036" rotation="AD: -0.520846 -0.901182 3.10877 174.726" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="-0.034394 0.232968 0.99923" rotation="AD: -0.139449 -1.00992 5.08894 179.389" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0002" translation="-0.120407 0.179632 1.00639" rotation="AD: 0.498027 -0.892447 4.22378 182.774" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0003" translation="0.0234724 0.123977 1.05197" rotation="AD: 0.877554 -0.54464 1.96923 192.458" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0004" translation="-0.0134296 0.280326 0.742088" rotation="AD: 0.999218 -0.0574646 0.950487 185.012" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0005" translation="-0.00734022 0.263338 0.690062" rotation="AD: 0.999994 -0.00875132 0.430118 182.141" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0006" translation="0.0503952 0.252037 0.708087" rotation="AD: 0.999991 0.0172253 -0.258471 187.383" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
