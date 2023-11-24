@@ -8,12 +8,15 @@ public class Function : MonoBehaviour {
     public TMP_Text textBox;
     private Coroutine showTextCoroutine;
     public void ActivateText() {
-        StartCoroutine(ShowText());
-        showTextCoroutine = StartCoroutine(ShowText());
-        textBox.GetComponent<AudioSource>().enabled = true;
+        if (showTextCoroutine == null)showTextCoroutine = StartCoroutine(ShowText());
+            textBox.GetComponent<AudioSource>().enabled = true;
     }
     public void DeactivateText() {
-        if (showTextCoroutine != null) StopCoroutine(showTextCoroutine);
+        if (showTextCoroutine != null)
+        {
+            StopCoroutine(showTextCoroutine);
+            showTextCoroutine = null;
+        }
         textBox.text = ""; //limpiar 
         textBox.GetComponent<AudioSource>().enabled = false;
     }
@@ -22,7 +25,7 @@ public class Function : MonoBehaviour {
         for (int i = 0; i < text.Length; i++) {
             textBox.text += text[i];
             yield return new
-           WaitForSeconds(0.08f);
+           WaitForSeconds(0.06f);
         }
     }
 }
